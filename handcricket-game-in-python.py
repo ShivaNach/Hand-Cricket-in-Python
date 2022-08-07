@@ -57,7 +57,8 @@ def botBowlingFirst():
                 firstRoundBotBowl = personTotal
                 botBattingSecond(firstRoundBotBowl)
                 break    
-            personTotal = personTotal + personGuess   
+
+            personTotal = personTotal + personGuess     
         else:
             print("Are you cheating or something? Whatever you gotta retry now.")  
             break   
@@ -69,7 +70,9 @@ def botBowlingSecond(secondRoundBotBowl):
         personGuess = int(input("Enter your batting prediction: "))
         if 10 >= personGuess >= 0:
             botGuess = random.randint(1,11)
+
             personTotal = personTotal + personGuess
+
             print("Bot's bowling number: ",botGuess) 
             if botGuess == personGuess and secondRoundBotBowl > personTotal:
                 print("Oh no! You lost the game...")
