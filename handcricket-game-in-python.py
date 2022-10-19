@@ -98,7 +98,7 @@ if botToss != tossNumber:
         botChoice = random.randint(0,2)
         if botChoice == 1:
             print("Bot is going to bat first.")
-            botBattingFirst() #ssss
+            botBattingFirst()
         else:
             print("Bot is going to bowl first.")
             botBowlingFirst()  
