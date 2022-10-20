@@ -81,7 +81,7 @@ def botBowlingSecond(secondRoundBotBowl):
                 print("Congrats! you win the game...")
                 break   
         else:
-            print("No No No... Pick from 1 to 10 not any other thing.")
+            print("No No No... Pick from 1 to 10 not any other number.")
             break        
 
 tossNumber = int(input("Enter either 1 or 2 for toss: "))
